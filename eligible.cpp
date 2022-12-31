@@ -1,24 +1,21 @@
 #include<iostream>
 using namespace std;
-void isEligible(int age);
-main() 
-{
-while(true)
+void iseligible(int age);
+main()
 {
 int age;
 cout << "Enter Age: ";
 cin >> age;
-isEligible(age);
+iseligible(age);
 }
-}
-void isEligible(int age) 
+void iseligible(int age)
 {
 if (age>=18)
 {
-cout << "Eligible" << endl;
+cout << "You are Eligible ";
 }
 if (age<18)
 {
-cout << "Not Eligible" << endl;
+cout << "You are not Eligible";
 }
 }

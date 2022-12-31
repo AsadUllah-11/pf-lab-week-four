@@ -6,6 +6,8 @@ void multiply(int number1,int number2);
 void division(int number1,int number2);
 main()
 {
+while (true)
+{
 int number1,number2;
 cout << "Enter First Number: ";
 cin >> number1;
@@ -29,6 +31,7 @@ if (choice=='*')
 if (choice=='/')
 {
  division( number1, number2);
+}
 }
 }
 void add(int number1,int number2)
